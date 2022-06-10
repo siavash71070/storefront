@@ -93,10 +93,10 @@ WSGI_APPLICATION = 'storefront.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'storefront',
+        'NAME': 'hermes_db',
         'HOST': 'localhost',
-        'USER': 'django',
-        'PASSWORD': 'Django123!^'
+        'USER': 'hermes',
+        'PASSWORD': 'hermes123'
     }
 }
 
